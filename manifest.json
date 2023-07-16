@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Dyslexia Font Customizer",
+    "version": "1.0",
+    "description": "A Chrome extension to customize fonts for individuals with dyslexia.",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "permissions": [
+      "activeTab"
+    ],
+    "browser_action": {
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+      "default_title": "Dyslexia Font Customizer",
+      "default_popup": "popup.html"
+    }
+  }
+  
